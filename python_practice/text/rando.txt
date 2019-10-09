@@ -1,0 +1,7 @@
+import random
+def randInt():
+    num = random.random()*100
+    return round(num)
+print(randInt())
+
+

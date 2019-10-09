@@ -1,0 +1,154 @@
+body *{
+    margin: 0px;
+    /* border: solid red .5px; */
+}
+.container{
+    width: 970px;
+    min-height: 800px;
+    margin: 0 auto;
+    background-color: rgb(36, 84, 115);
+    padding-top: 10px;
+}
+.header p{
+    color: white;
+    text-align: right;
+    vertical-align: super;
+     margin-right: 30px; 
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.header a{
+    color:rgb(242, 193, 46); 
+}
+.header img{
+    width: 310px;
+    display: inline-block; 
+    margin-left: 20px;
+}
+.search{
+    border-radius: 15px;
+    background-color: rgb(68, 68, 68);
+    width: 290px;
+    height: 60px;
+    display: inline-block;
+   margin-top: 20px;
+    margin-left: 330px;
+    vertical-align: top;
+    box-shadow: 3px 3px;
+    text-align: center;
+
+}
+form.example input[type=text]{
+    font-size: 14px;
+    height: 24px;
+}
+form.example{
+      text-align: center;
+        color: white;
+        margin-top: 15px;
+        
+}
+form.example button{
+    width: 15%;
+    background-color:rgb(36, 84, 115);
+    color: white;
+}
+.navbar{
+border-radius: 10px;
+   text-align: center;
+   background-color: rgb(67, 125, 173);
+   margin-top: 10px;
+   margin-left: 40px;
+   margin-right: 40px;
+   box-shadow: 3px 3px;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px 15px 10px 15px;
+    color: rgb(255, 255, 255);
+}
+.links{
+    width: 200px;
+    text-align: center;
+    color: rgb(242, 193, 46); 
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 17px;
+    display: inline-block;
+}
+.links a{
+    color: white;
+}
+.links li{
+    margin-top: 6px;
+}
+.textinfo{
+    width: 580px;
+    min-height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+}
+.golden{
+    font-size: 22px;
+    color: rgb(242, 193, 46);
+}
+.golden p{
+    margin-top: 4px;
+}
+.center{
+    min-height: 200px;
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.centerblock hr{
+    border: 2px solid rgb(115, 167, 213);
+    width: 405px;
+    margin-left: -10px;
+}
+.centerblock{
+    display: inline-block;
+    width: 35%;
+    padding: 10px;
+    margin: 0px 50px 0px 50px; 
+    vertical-align: top;
+}
+.centerblock h3{
+    margin-bottom: 1%;
+}
+.centerblock a{
+    color: rgb(115, 167, 213);
+    margin-left: 10px;
+    text-decoration: none;
+   
+}
+.centerblock li{
+    text-align: left;
+    margin-left: 10px;
+}
+.footer{
+    background-image: linear-gradient(rgb(36, 84, 115), rgb(51, 117, 173));   
+    text-align: center;
+    padding: 3% 0% 0%;
+}
+.footer a{
+    color: rgb(115, 167, 213);
+    text-decoration: none;
+    margin: 4% 4% 0 3%;
+    font-size: 18px;
+}
+.footer p{
+    color: rgb(115, 167, 213);
+    font-size: 10px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+
+

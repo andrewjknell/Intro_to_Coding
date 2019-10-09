@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+.row img{
+    width: 18%;
+}
+.reverse{
+    padding: 3%;
+    color: white;
+    background-color: blue;
+    vertical-align: top;
+}
+</style>
+
+</head>
+
+
+
+<body>
+  <div class="row">  
+    <img  src="IMG_1449.jpeg" alt="">
+    <img  src="IMG_1449.jpeg" alt="">
+    <img  src="IMG_1449.jpeg" alt="">
+    <img  src="IMG_1449.jpeg" alt="">
+    <img  src="IMG_1449.jpeg" alt="">
+    <img  src="IMG_1449.jpeg" alt="">
+    <img  src="IMG_1449.jpeg" alt="">
+    <img  src="IMG_1449.jpeg" alt="">
+
+    <button class="reverse">Reverse</button>
+  </div>
+
+    <script>
+        $('.row img').click(function(){
+            $(this).hide('slow');
+        });
+        $('.reverse').click(function(){
+            $('.row img').show('slow');
+        });
+    </script>
+</body>
+</html>

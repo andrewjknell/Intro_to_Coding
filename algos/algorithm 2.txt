@@ -1,0 +1,53 @@
+1. 2, 3, undefined
+2. 6, 10
+3. 3, 7
+4. 15, 15, 10, 15
+5. 2, 4, 6, 8, 10, 12, 14
+6. 0, 0, 0, 1, 0, 2
+7. 0, 0, 0, 0, 1, 2, 0, 2, 4, undefined
+8. doesnt run
+
+9. function printUpTo(x){
+    if(x < 0){
+        return false;
+    }
+  for(var i = 1; i <= x; i++){
+      console.log(i);   
+  }
+}
+printUpTo(1000); 
+y = printUpTo(-10); 
+console.log(y)
+
+10. function printSum(x){
+  var sum = 0;
+    for(var i = 0; i < x; i++){
+        console.log(i);
+        sum += i;
+        console.log(sum);
+    }
+  return sum
+}
+y = printSum(255) 
+console.log(y)
+
+11. function printSumArray(x){
+  var sum = 0;
+  for(var i=0; i<x.length; i++) {
+        sum += x[i];
+  }
+  return sum;
+}
+console.log( printSumArray([1,2,3]) );
+
+12. function returnMax(arr){
+  var max = [0];
+  for(var i = 0; i < arr.length;i++){
+    if(max < arr[i]){
+      max = arr[i];  
+    }
+  }
+return max;
+}
+console.log(returnMax([5,2,8,100]));
+

@@ -1,0 +1,41 @@
+
+.head{
+    background: rgb(114, 114, 114);
+    border: .5px gold solid;
+    margin-bottom: 5px;
+}
+.body{
+    background: rgb(192, 192, 192);
+    border: .5px gold solid;
+    margin-bottom: 5px;
+}
+.footer{
+    background: rgb(232, 235, 95);
+    border: .5px gold solid;
+}
+@media only screen and (max-width: 580px){
+    .sm-4{
+        width: 100%;
+    }
+    .sm-0{
+        display: none;
+    }
+}
+@media only screen and (min-width: 580px){
+    .md-4{
+        width: 100%;
+    }
+    .md-0{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 970px){ 
+    .lg-4{
+        width: 100%;
+        display: block;
+    }
+    .lg-0{
+        display: none;
+    }
+}

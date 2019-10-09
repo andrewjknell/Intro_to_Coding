@@ -1,0 +1,49 @@
+1. 5
+2. [2, 2, 5],[2, 2, 5],[6, 8, 5],[6, 8, 5]
+3. [2, 2, 5]
+4. true
+5. ["Coding", "Coding", "Coding", "Coding"]
+6. [5, "Coding", "Dojo", 4]
+7. 10
+8. nothing happens function isnt called
+
+9.
+function printAverage(x){
+   var sum = 0;
+   for(var i = 0; i < x.length; i++){
+     sum += x[i];
+   }
+  var avg = sum/ x.length;
+  return avg;
+}
+y = printAverage([1,2,3]);
+console.log(y);
+  
+y = printAverage([2,5,8]);
+console.log(y); 
+
+10.
+function returnOddArray(){
+  var odd = [];
+   for(var i=0; i<=255; i++){
+     if(i % 2 !==0){
+       odd.push(i);     
+     }    
+   }
+  return odd;
+}
+y = returnOddArray();
+console.log(y)
+
+11.
+function squareValue(x){
+   for (var i=0; i<x.length; i++){
+     x[i] *= x[i];
+   }
+   return x;
+}
+y = squareValue([1,2,3]);
+console.log(y); // should log [1,4,9]
+  
+y = squareValue([2,5,8]);
+console.log(y);

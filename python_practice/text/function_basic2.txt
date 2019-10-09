@@ -1,0 +1,43 @@
+1.  def count(num):
+    newList = []
+    for x in range(num,-1,-1):
+        newList.append(x)
+    return newList
+print(count(6))
+
+
+2.  def printOne(num1,num2):
+    print(num1)
+    return num2
+
+printOne(2,6)
+
+
+3.  def oneLen(list):
+    return list[0]+len(list)
+
+print(oneLen([3,4,5,6,7]))
+
+
+4.   def second(list):
+    newList = []
+    count = 0
+    if len(list) < 2:
+        return False
+    for x in range(0,len(list)):
+        if list[x] > list[1]:
+            newList.append(list[x])
+            count += 1
+    print(count)
+    return newList
+    
+print(second([1]))
+
+
+5.  def mult(num1,num2):
+    newList = []
+    for x in range(0,num1):
+        x = num2
+        newList.append(x)
+    return newList
+print(mult(4,10))

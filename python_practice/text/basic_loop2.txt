@@ -1,0 +1,58 @@
+1.
+def big(list):
+    for x in range(len(list)):
+        if list[x] < 1:
+            list[x] = 'big'
+    return list
+print(big([4,6,-1,-2,5,-3,-5]))
+
+2.
+def pos(list):
+    count = 0
+    for x in range(len(list)):
+        if list[x] > 0:
+            count = count+1
+    list[len(list)-1] = count
+    return list
+print(pos([2,3,4,-5,-6,-4,6]))
+        
+3.
+def total(list):
+    sum = 0
+    for x in range(len(list)):
+        sum += list[x]
+    return sum
+print(total([1,2,3,4,5,6]))
+   
+4.
+def total(list):
+    sum = 0
+    for x in range(len(list)):
+        sum += list[x]
+    return sum/len(list)
+print(total([1,2,3,4,5,6]))
+   
+5.
+def total(list):
+    return len(list)
+   
+
+6.7.8
+
+
+
+9.
+def reverse(list):
+   fisrt = 0
+   last = len(list)-1
+   while first<last:
+       temp = list[first]
+       list[first] = list[last]
+       list[last] = temp
+       first += 1
+       last -= 1
+
+   return list
+
+print(reverse([1,2,3,4,5]))
+

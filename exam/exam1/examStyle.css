@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    background-color: #062134;
+    width: 1100px;
+   padding: 10px;
+    margin: 0 auto auto;
+}
+.innerbox{
+    background: white;
+    margin: 25px 0 0;
+    padding: 20px 0 0 25px;
+   
+}
+.navBar h2{
+    margin-left: 30px;
+    margin-right: 70px;
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+ 
+}
+.blueText{
+    color: #1B96E4;
+}
+.darkBlueText
+{
+    color: #1E4867;
+}
+.navBar a{
+    display: inline-block;
+    margin-left: 38px;
+    margin-right: 10px;
+    font-size: 15px;
+    padding-top: 40px;
+    color: #D8DCDF;
+    text-decoration: none;
+}
+.jumboTron img{
+    height: 400px;
+    width: 1050px;
+}
+.bodyBox{
+    display: inline-block;
+    width: 319px;
+    min-height: 290px;
+    background-color: #1468A8;
+    margin: 20px 20px 0 0;
+    padding-left: 15px;
+    color: #FFFFFF;
+    
+}
+.bodyBox img{
+    border-radius: 60px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    background-color: white;
+}
+.bodyBox h2{
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+   
+}
+.bodyBox p{
+    margin-bottom: 55px;
+}
+.button{
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px 58px;
+    background: linear-gradient(#47ADEC 50%, #1992DE 50%);
+    text-align: center;;
+    color: white;
+    text-decoration: none;
+
+}
+.wrap1, .wrap2, .wrap3{
+    margin-top: 20px;
+    display: inline-block;
+    width: 340px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    vertical-align: top;
+}
+.wrap1 img{
+    width: 330px;
+   
+}
+.wrap1 h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.wrap2{
+    padding-top: 40px;
+}
+.wrap2 p{
+    margin-bottom: 10px;
+}
+.button2{
+    text-decoration: none;
+    background: none;
+    color: #1992DE;
+    border: none;
+    font-size: 16px;
+}
+.wrap3 h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.wrap3 p{
+    background-color: #DAEDFF;
+    padding: 30px 30px 55px;
+    margin-bottom: 25px;
+}
+.footer{
+    background-color: #DAEDFF;
+    margin: 1px 0  0;
+    padding: 20px;
+    text-align: center;
+}
+.footer a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #1468A8;
+}
+.lightBlue{
+    color: #9CC9ED;
+}

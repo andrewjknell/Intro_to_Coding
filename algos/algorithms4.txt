@@ -1,0 +1,43 @@
+1. var arr = [x];
+var y;
+var count = 0;
+for (var i=0; i<arr.length; i++){
+  if(arr[i]>y){
+    console.log(arr[i]);
+    count += 1;
+  }
+}
+
+2.var arr = [x];
+var min = [0];
+var max = [0];
+var sum = [0];
+for(var i = 1; i<arr.length;i++){
+  if(max < arr[i]){
+    arr[i] = max;
+  }
+  else if(min > arr[i]){
+    arr[i] = min;
+  }
+  sum += arr[i];
+}
+var avg = sum/arr.length;
+var newArr = [max, min, avg]; 
+
+3.function arrDojo([x]){
+for(var i = 0; i<arr.length;i++){
+  if(x[i] < 0){
+    x[i] = 'Dojo';
+  }
+}
+  return x;
+}
+
+4. function removeArr(arr,x,y){
+  
+    for(var i = 0; i<=y-x;i++){
+      arr.splice(arr[x-1],1);
+    }
+  return [arr];
+}
+console.log(removeArr([1,2,3,4,5,6,7,8,9,10,11,12,13,14],3,8));
